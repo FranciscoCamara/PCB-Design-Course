@@ -1,0 +1,20 @@
+# KiCad autosave and backup files
+*~
+*.bak
+*.bck
+*.tmp
+*.save
+*.swp
+*.swo
+
+# User-specific preferences
+*.kicad_prl
+
+# KiCad backup schematic/PCB files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Cache files (not needed for full portability)
+*.cache
+*.cache.*
+__pycache__/
