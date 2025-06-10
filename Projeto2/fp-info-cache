@@ -1,4 +1,4 @@
-25601073747525541
+25604572902382360
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67871,6 +67871,20 @@ AMPHENOL_10118194-0001LF
 0
 11
 11
+Lib_fp
+SAMTEC_HSEC8-120-01-S-D-EM2
+
+
+0
+44
+44
+Lib_fp
+SW_B3F-1000_OMR
+
+B3F-1002 
+0
+4
+4
 Lib_fp
 TQFP64_PT_MCH
 
