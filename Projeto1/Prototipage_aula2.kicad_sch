@@ -4429,7 +4429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 154.94 151.13 0)
 			(effects
 				(font
@@ -4960,6 +4960,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x07_Pin")
+		(at 104.14 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c89018f-7323-4a72-b83c-1a1e2688f1b0")
+		(property "Reference" "J3"
+			(at 104.14 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x07_Pin"
+			(at 104.14 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "572692be-1163-4994-a01d-833611bcdc8a")
+		)
+		(pin "2"
+			(uuid "b7248777-5dd5-4e8c-befe-b1c2031d4499")
+		)
+		(pin "6"
+			(uuid "99c31801-65d0-4f47-ba6d-72ae0939d6ad")
+		)
+		(pin "7"
+			(uuid "7881e757-8fdf-43d6-b3d4-f3e2525dda13")
+		)
+		(pin "4"
+			(uuid "75f7a516-c231-45d3-ba2a-32c58822eb61")
+		)
+		(pin "3"
+			(uuid "a3b5d27d-dde9-445d-ab15-d4ad4415d4f0")
+		)
+		(pin "5"
+			(uuid "a4373eef-a767-4f5d-ba64-98da5802a838")
+		)
+		(instances
+			(project ""
+				(path "/78a6c22b-848d-43da-b85b-7e3cc2070649"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 97.79 46.99 0)
 		(unit 1)
@@ -5090,90 +5174,6 @@
 			(project "Prototipage_aula2"
 				(path "/78a6c22b-848d-43da-b85b-7e3cc2070649"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x07_Pin")
-		(at 104.14 151.13 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ae9fa9a-c1ee-4da8-8b12-22d8fa1e251b")
-		(property "Reference" "J3"
-			(at 104.14 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x07_Pin"
-			(at 104.14 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
-			(at 104.14 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 104.14 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88930d82-4953-4123-abf6-8f19791a0de1")
-		)
-		(pin "3"
-			(uuid "63f3b416-8b21-4727-a9d6-063e526ea4c6")
-		)
-		(pin "5"
-			(uuid "f5350046-a449-43d2-bb84-5f157b066c57")
-		)
-		(pin "2"
-			(uuid "391c10c2-e8dd-4924-8960-43d9473f83f8")
-		)
-		(pin "6"
-			(uuid "11764819-f4a9-49da-bd7c-66b27c1d3c47")
-		)
-		(pin "7"
-			(uuid "7afdea10-2852-4606-b50e-249f845bf0f2")
-		)
-		(pin "4"
-			(uuid "a74a7488-5fe3-43c7-831e-552a1c4f92f1")
-		)
-		(instances
-			(project ""
-				(path "/78a6c22b-848d-43da-b85b-7e3cc2070649"
-					(reference "J3")
 					(unit 1)
 				)
 			)
