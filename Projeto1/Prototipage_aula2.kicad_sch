@@ -963,12 +963,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Prototipagem_Lib:284697-E"
+		(symbol "Lib:284697-E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -6.35 15.748 0)
+				(at -4.826 17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -977,7 +977,7 @@
 				)
 			)
 			(property "Value" "284697-E"
-				(at -6.35 13.208 0)
+				(at -4.826 14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -985,7 +985,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Prototipagem_Lib:284697E"
+			(property "Footprint" "284697E"
 				(at 19.05 -94.92 0)
 				(effects
 					(font
@@ -1066,8 +1066,8 @@
 			)
 			(symbol "284697-E_0_1"
 				(rectangle
-					(start -6.35 10.16)
-					(end 3.556 7.62)
+					(start -5.08 11.43)
+					(end 4.826 8.89)
 					(stroke
 						(width 0)
 						(type default)
@@ -1077,8 +1077,8 @@
 					)
 				)
 				(rectangle
-					(start -6.35 -9.144)
-					(end 3.556 -11.176)
+					(start -5.08 -7.874)
+					(end 4.826 -9.906)
 					(stroke
 						(width 0)
 						(type default)
@@ -1088,8 +1088,8 @@
 					)
 				)
 				(rectangle
-					(start -3.81 7.62)
-					(end 1.27 -9.144)
+					(start -2.54 8.89)
+					(end 2.54 -7.874)
 					(stroke
 						(width 0)
 						(type default)
@@ -1099,8 +1099,8 @@
 					)
 				)
 				(rectangle
-					(start -2.794 6.604)
-					(end 0.254 3.556)
+					(start -1.524 7.874)
+					(end 1.524 4.826)
 					(stroke
 						(width 0)
 						(type default)
@@ -1110,8 +1110,8 @@
 					)
 				)
 				(rectangle
-					(start -2.794 2.794)
-					(end 0.254 -0.254)
+					(start -1.524 4.064)
+					(end 1.524 1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -1121,8 +1121,8 @@
 					)
 				)
 				(rectangle
-					(start -2.794 -1.016)
-					(end 0.254 -4.064)
+					(start -1.524 0.254)
+					(end 1.524 -2.794)
 					(stroke
 						(width 0)
 						(type default)
@@ -1132,8 +1132,8 @@
 					)
 				)
 				(rectangle
-					(start -2.794 -4.826)
-					(end 0.254 -7.874)
+					(start -1.524 -3.556)
+					(end 1.524 -6.604)
 					(stroke
 						(width 0)
 						(type default)
@@ -1143,8 +1143,8 @@
 					)
 				)
 				(rectangle
-					(start -2.032 5.842)
-					(end -0.508 4.318)
+					(start -0.762 7.112)
+					(end 0.762 5.588)
 					(stroke
 						(width 0)
 						(type default)
@@ -1154,8 +1154,8 @@
 					)
 				)
 				(rectangle
-					(start -2.032 2.032)
-					(end -0.508 0.508)
+					(start -0.762 3.302)
+					(end 0.762 1.778)
 					(stroke
 						(width 0)
 						(type default)
@@ -1165,8 +1165,8 @@
 					)
 				)
 				(rectangle
-					(start -2.032 -1.778)
-					(end -0.508 -3.302)
+					(start -0.762 -0.508)
+					(end 0.762 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -1176,8 +1176,8 @@
 					)
 				)
 				(rectangle
-					(start -2.032 -5.588)
-					(end -0.508 -7.112)
+					(start -0.762 -4.318)
+					(end 0.762 -5.842)
 					(stroke
 						(width 0)
 						(type default)
@@ -1189,7 +1189,7 @@
 			)
 			(symbol "284697-E_1_1"
 				(pin passive line
-					(at -3.81 8.89 180)
+					(at -2.54 10.16 180)
 					(length 5.08)
 					(name "S2"
 						(effects
@@ -1207,7 +1207,7 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -10.16 180)
+					(at -2.54 -8.89 180)
 					(length 5.08)
 					(name "S1"
 						(effects
@@ -1225,7 +1225,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 5.08 0)
+					(at 0 6.35 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -1243,7 +1243,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 1.27 0)
+					(at 0 2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -1261,7 +1261,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 -2.54 0)
+					(at 0 -1.27 0)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -1279,7 +1279,7 @@
 					)
 				)
 				(pin passive line
-					(at -1.27 -6.35 0)
+					(at 0 -5.08 0)
 					(length 5.08)
 					(name "4"
 						(effects
@@ -1297,7 +1297,7 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 8.89 0)
+					(at 2.54 10.16 0)
 					(length 5.08)
 					(name "S4"
 						(effects
@@ -1315,7 +1315,7 @@
 					)
 				)
 				(pin passive line
-					(at 1.27 -10.16 0)
+					(at 2.54 -8.89 0)
 					(length 5.08)
 					(name "S3"
 						(effects
@@ -1335,7 +1335,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Prototipagem_Lib:APT1608LZGCK"
+		(symbol "Lib:APT1608LZGCK"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1349,7 +1349,6 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Value" "APT1608LZGCK"
@@ -1359,10 +1358,9 @@
 						(size 1.27 1.27)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "Prototipagem_Lib:LED_APT1608LZGCK"
+			(property "Footprint" "APT1608LZGCK:LED_APT1608LZGCK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1433,7 +1431,7 @@
 			(symbol "APT1608LZGCK_0_0"
 				(polyline
 					(pts
-						(xy -3.5306 -2.4384) (xy -1.4986 -0.6604)
+						(xy -2.54 1.524) (xy -2.54 -1.524)
 					)
 					(stroke
 						(width 0.254)
@@ -1445,7 +1443,19 @@
 				)
 				(polyline
 					(pts
-						(xy -3.429 -3.683) (xy -1.397 -1.905)
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.524) (xy 0 0)
 					)
 					(stroke
 						(width 0.254)
@@ -1457,7 +1467,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 -1.651) (xy -2.667 -2.2225) (xy -3.683 -2.6035) (xy -3.175 -1.651)
+						(xy -1.143 3.683) (xy -0.5715 3.175) (xy -0.1905 4.191) (xy -1.143 3.683)
 					)
 					(stroke
 						(width 0.1524)
@@ -1469,7 +1479,55 @@
 				)
 				(polyline
 					(pts
-						(xy -3.1115 -2.921) (xy -2.6035 -3.4925) (xy -3.683 -3.8735) (xy -3.1115 -2.921)
+						(xy -0.3556 4.0386) (xy -2.1336 2.0066)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 3.6195) (xy 0.6985 3.1115) (xy 1.0795 4.191) (xy 0.127 3.6195)
 					)
 					(stroke
 						(width 0.1524)
@@ -1481,7 +1539,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0) (xy 0 -2.54)
+						(xy 0.889 3.937) (xy -0.889 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -1493,7 +1551,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 2.54 0) (xy 0 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -1503,88 +1561,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.524 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0) (xy -1.524 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "APT1608LZGCK_1_0"
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
+					(at -7.62 0 0)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1601,22 +1579,38 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 			)
 			(symbol "APT1608LZGCK_1_1"
 				(text "GRN"
-					(at -4.318 -2.286 900)
+					(at 0.254 5.08 0)
 					(effects
 						(font
-							(size 0.762 0.762)
-							(thickness 0.1524)
-							(bold yes)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Prototipagem_Lib:BMI088"
+		(symbol "Lib:BMI088"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1624,7 +1618,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -12.7 18.415 0)
+				(at -0.762 20.828 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1633,7 +1627,7 @@
 				)
 			)
 			(property "Value" "BMI088"
-				(at -12.7 -20.32 0)
+				(at -3.81 18.288 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1641,7 +1635,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Prototipagem_Lib:PQFN50P450X300X100-16N"
+			(property "Footprint" "BMI088:PQFN50P450X300X100-16N"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1792,8 +1786,8 @@
 			)
 			(symbol "BMI088_0_0"
 				(rectangle
-					(start -11.43 17.78)
-					(end 13.97 -17.78)
+					(start -12.7 16.51)
+					(end 12.7 -19.05)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1803,7 +1797,7 @@
 					)
 				)
 				(pin power_in line
-					(at -16.51 13.97 0)
+					(at -17.78 12.7 0)
 					(length 5.08)
 					(name "VDD"
 						(effects
@@ -1821,7 +1815,7 @@
 					)
 				)
 				(pin power_in line
-					(at -16.51 10.16 0)
+					(at -17.78 8.89 0)
 					(length 5.08)
 					(name "VDDIO"
 						(effects
@@ -1839,7 +1833,7 @@
 					)
 				)
 				(pin input line
-					(at -16.51 6.35 0)
+					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "PS"
 						(effects
@@ -1857,7 +1851,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -16.51 2.54 0)
+					(at -17.78 1.27 0)
 					(length 5.08)
 					(name "SDA/SDI"
 						(effects
@@ -1875,7 +1869,7 @@
 					)
 				)
 				(pin input clock
-					(at -16.51 -2.54 0)
+					(at -17.78 -3.81 0)
 					(length 5.08)
 					(name "SCL/SCK"
 						(effects
@@ -1893,7 +1887,7 @@
 					)
 				)
 				(pin passive line
-					(at -16.51 -6.35 0)
+					(at -17.78 -7.62 0)
 					(length 5.08)
 					(name "NC"
 						(effects
@@ -1911,7 +1905,7 @@
 					)
 				)
 				(pin power_in line
-					(at -16.51 -10.16 0)
+					(at -17.78 -11.43 0)
 					(length 5.08)
 					(name "GNDIO"
 						(effects
@@ -1929,7 +1923,7 @@
 					)
 				)
 				(pin power_in line
-					(at -16.51 -13.97 0)
+					(at -17.78 -15.24 0)
 					(length 5.08)
 					(name "GNDA"
 						(effects
@@ -1947,7 +1941,7 @@
 					)
 				)
 				(pin input line
-					(at 19.05 13.97 180)
+					(at 17.78 12.7 180)
 					(length 5.08)
 					(name "CSB1"
 						(effects
@@ -1965,7 +1959,7 @@
 					)
 				)
 				(pin input line
-					(at 19.05 10.16 180)
+					(at 17.78 8.89 180)
 					(length 5.08)
 					(name "CSB2"
 						(effects
@@ -1983,7 +1977,7 @@
 					)
 				)
 				(pin output line
-					(at 19.05 6.35 180)
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "SDO1"
 						(effects
@@ -2001,7 +1995,7 @@
 					)
 				)
 				(pin output line
-					(at 19.05 2.54 180)
+					(at 17.78 1.27 180)
 					(length 5.08)
 					(name "SDO2"
 						(effects
@@ -2019,7 +2013,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -2.54 180)
+					(at 17.78 -3.81 180)
 					(length 5.08)
 					(name "INT1"
 						(effects
@@ -2037,7 +2031,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -6.35 180)
+					(at 17.78 -7.62 180)
 					(length 5.08)
 					(name "INT2"
 						(effects
@@ -2055,7 +2049,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -10.16 180)
+					(at 17.78 -11.43 180)
 					(length 5.08)
 					(name "INT3"
 						(effects
@@ -2073,7 +2067,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 19.05 -13.97 180)
+					(at 17.78 -15.24 180)
 					(length 5.08)
 					(name "INT4"
 						(effects
@@ -4038,239 +4032,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Prototipagem_Lib:BMI088")
-		(at 220.98 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22485420-8fc2-4c29-9b04-5dd7d87852d1")
-		(property "Reference" "U1"
-			(at 220.98 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BMI088"
-			(at 220.98 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Prototipagem_Lib:PQFN50P450X300X100-16N"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Bosch Sensortec"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/BMI088/?ref=eda"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "VFLGA-16 Bosch Sensortec"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "VFLGA-16 Bosch Sensortec"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BMI088/Bosch/view-part/?ref=eda"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMI088/Bosch/view-part/?ref=snap"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BMI088"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Accelerometer, Gyroscope, 6 Axis Sensor I2C, SPI Output"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "In Stock"
-			(at 220.98 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "12"
-			(uuid "b1c6c926-ba85-4cc2-9e02-359cbaf4add7")
-		)
-		(pin "4"
-			(uuid "85c5443e-0639-4d9b-868a-bc873d542f21")
-		)
-		(pin "5"
-			(uuid "704c92eb-6dca-4c6e-83fd-2666b03fea64")
-		)
-		(pin "15"
-			(uuid "9bd2965f-d5d6-46f4-b024-ae1377902430")
-		)
-		(pin "10"
-			(uuid "82740cc0-42a5-4557-b3df-b9c44120820d")
-		)
-		(pin "8"
-			(uuid "9d495dbb-d5b6-41a6-b207-b937f901196e")
-		)
-		(pin "14"
-			(uuid "269140fa-9a0f-48f1-9146-3f81093f37d1")
-		)
-		(pin "7"
-			(uuid "a1495578-279e-46da-9252-3ba94c86107d")
-		)
-		(pin "9"
-			(uuid "bf5efb40-296d-49cb-a5f8-ec7a4ab6b7ef")
-		)
-		(pin "2"
-			(uuid "e8b67561-effa-48c0-b5f3-46d5455d66a5")
-		)
-		(pin "16"
-			(uuid "17858c20-8ad1-4237-985c-a397ed2feb16")
-		)
-		(pin "11"
-			(uuid "f3c699ce-6c2b-482d-a4bb-4454df444bc1")
-		)
-		(pin "3"
-			(uuid "81852b22-519a-4d6e-a683-2f96b24ce069")
-		)
-		(pin "1"
-			(uuid "a928b833-5f69-4d00-9309-9a26d047557f")
-		)
-		(pin "13"
-			(uuid "c9e5ac38-453f-4c5f-be5a-28fff0e54d28")
-		)
-		(pin "6"
-			(uuid "16c01a55-2183-47f9-b05e-a259236c4a6d")
-		)
-		(instances
-			(project ""
-				(path "/78a6c22b-848d-43da-b85b-7e3cc2070649"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 49.53 144.78 0)
 		(unit 1)
@@ -4397,6 +4158,238 @@
 			(project "Prototipage_aula2"
 				(path "/78a6c22b-848d-43da-b85b-7e3cc2070649"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lib:BMI088")
+		(at 222.25 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39f553f9-c14d-4e5f-88af-c88ee7d307ae")
+		(property "Reference" "U2"
+			(at 222.25 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMI088"
+			(at 222.25 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMI088:PQFN50P450X300X100-16N"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Accelerometer, Gyroscope, 6 Axis Sensor I²C, SPI Output"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bosch Sensortec"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PURCHASE-URL" "https://pricing.snapeda.com/search/part/BMI088/?ref=eda"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "VFLGA-16 Bosch Sensortec"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "VFLGA-16 Bosch Sensortec"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BMI088/Bosch/view-part/?ref=eda"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMI088/Bosch/view-part/?ref=snap"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BMI088"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Accelerometer, Gyroscope, 6 Axis Sensor I2C, SPI Output"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 222.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "3c314741-812c-421c-b8bd-2787e03a4cca")
+		)
+		(pin "1"
+			(uuid "773137db-6b5d-482d-a14f-1f78c37418a7")
+		)
+		(pin "14"
+			(uuid "db91d9c9-da13-4580-9da7-391bf3a81890")
+		)
+		(pin "3"
+			(uuid "ee6d1451-46e7-4a3a-a709-079c7f2317d4")
+		)
+		(pin "5"
+			(uuid "e6caed3c-666a-4b3a-b5f1-ab7ba5c20571")
+		)
+		(pin "6"
+			(uuid "5ab356a1-4183-49e9-beed-f5d8fd9c0ca4")
+		)
+		(pin "4"
+			(uuid "e7b78bac-5674-4cde-8115-6dcc2983e5d8")
+		)
+		(pin "12"
+			(uuid "8e39939b-e263-43dc-bbeb-88eec0b238d1")
+		)
+		(pin "9"
+			(uuid "3242f70f-7359-403c-b2ba-8e02de2ad9f0")
+		)
+		(pin "15"
+			(uuid "b2597bb3-df9b-4f02-b37f-2fa39225b4fd")
+		)
+		(pin "13"
+			(uuid "dc275caf-828b-4031-812f-e356d7e9b978")
+		)
+		(pin "8"
+			(uuid "acdc4f3d-c004-4ed3-9840-80443f68f59c")
+		)
+		(pin "7"
+			(uuid "3215c61e-eec0-450c-afc7-c5c6dff5b563")
+		)
+		(pin "2"
+			(uuid "14a84437-d7f3-4a3a-be6f-d22d6bcd422e")
+		)
+		(pin "11"
+			(uuid "c1f19afa-b833-493c-8b95-705e939986fe")
+		)
+		(pin "16"
+			(uuid "75dce213-6bd0-44f2-94b2-f35c3c74186e")
+		)
+		(instances
+			(project ""
+				(path "/78a6c22b-848d-43da-b85b-7e3cc2070649"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4822,144 +4815,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Prototipagem_Lib:284697-E")
-		(at 54.61 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "562e8204-e5fe-46c6-8687-eeab0fc5d578")
-		(property "Reference" "J2"
-			(at 53.086 42.164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "284697-E"
-			(at 53.594 39.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Prototipagem_Lib:284697E"
-			(at 73.66 149.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F284697-E%7FF%7Fpdf%7FEnglish%7FENG_CD_284697-E_F.pdf%7F284697-E"
-			(at 73.66 249.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB Mount Header, Vertical, Cable-to-Board, 4 Position, 1.27 mm [.05 in] Centerline, Fully Shrouded, Gold (Au), Surface Mount, ERNI MiniBridge"
-			(at 55.626 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "6.1"
-			(at 73.66 449.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "305-284697"
-			(at 73.66 549.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-ERNI/284697-E?qs=t7xnP681wgXF7Zyqlk%252B7cQ%3D%3D"
-			(at 73.66 649.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 73.66 749.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "284697-E"
-			(at 73.66 849.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "03226d6c-797e-44f3-8949-eaaeaa801264")
-		)
-		(pin "4"
-			(uuid "84fc6b4c-50db-4c0b-a093-b12fa6b7a26d")
-		)
-		(pin "1"
-			(uuid "1ed832a4-51dc-4f77-99ab-df87228edfa5")
-		)
-		(pin "5"
-			(uuid "303a9efa-5d7d-4d87-aebb-6f98f8d1e91a")
-		)
-		(pin "3"
-			(uuid "08483f2d-c889-4c72-9779-c87fab438b86")
-		)
-		(pin "2"
-			(uuid "fab764d7-d817-4271-82b5-939b44554ff7")
-		)
-		(pin "8"
-			(uuid "ddaa495e-cb65-4a1f-8a75-103e64ce6802")
-		)
-		(pin "7"
-			(uuid "36c2386f-872e-4c71-b57d-4be213b5e28f")
-		)
-		(instances
-			(project ""
-				(path "/78a6c22b-848d-43da-b85b-7e3cc2070649"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
 		(at 104.14 151.13 90)
 		(unit 1)
@@ -5038,6 +4893,144 @@
 			(project ""
 				(path "/78a6c22b-848d-43da-b85b-7e3cc2070649"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Lib:284697-E")
+		(at 53.34 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e99a040-50ce-4d43-ade0-6952b9b7e0d0")
+		(property "Reference" "J1"
+			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "284697-E"
+			(at 53.34 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "284697E"
+			(at 72.39 150.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F284697-E%7FF%7Fpdf%7FEnglish%7FENG_CD_284697-E_F.pdf%7F284697-E"
+			(at 72.39 250.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Mount Header, Vertical, Cable-to-Board, 4 Position, 1.27 mm [.05 in] Centerline, Fully Shrouded, Gold (Au), Surface Mount, ERNI MiniBridge"
+			(at 53.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.1"
+			(at 72.39 450.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "305-284697"
+			(at 72.39 550.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-ERNI/284697-E?qs=t7xnP681wgXF7Zyqlk%252B7cQ%3D%3D"
+			(at 72.39 650.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 72.39 750.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "284697-E"
+			(at 72.39 850.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "a21c6e90-93dc-47f1-88b4-78d75d52dbbb")
+		)
+		(pin "3"
+			(uuid "29e0fa67-f52d-45f1-8f94-b83e84d52fe0")
+		)
+		(pin "4"
+			(uuid "ddbf4e09-6358-49f0-ac90-8e1b7d694351")
+		)
+		(pin "1"
+			(uuid "7a187a4e-de57-41d3-88e1-d76d790ce2f1")
+		)
+		(pin "6"
+			(uuid "528ba637-7fc9-492e-81aa-ddf94a589094")
+		)
+		(pin "5"
+			(uuid "6dc05a2c-162e-4c85-a65c-97b6458969a2")
+		)
+		(pin "2"
+			(uuid "1594f4a0-d65c-4841-9335-847b0de7e62b")
+		)
+		(pin "7"
+			(uuid "5c1f877f-28f3-4863-99c0-eeb89a626ac8")
+		)
+		(instances
+			(project ""
+				(path "/78a6c22b-848d-43da-b85b-7e3cc2070649"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5180,16 +5173,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Prototipagem_Lib:APT1608LZGCK")
-		(at 49.53 133.35 0)
+		(lib_id "Lib:APT1608LZGCK")
+		(at 49.53 135.89 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b3d82aa2-522f-43d2-bb79-9ea191418237")
+		(fields_autoplaced yes)
+		(uuid "a8044413-70a1-4d9a-ba53-9b621e7de6f3")
 		(property "Reference" "D1"
-			(at 51.816 133.35 0)
+			(at 57.15 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,17 +5192,16 @@
 			)
 		)
 		(property "Value" "APT1608LZGCK"
-			(at 49.53 135.8899 0)
+			(at 57.15 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Prototipagem_Lib:LED_APT1608LZGCK"
-			(at 46.99 135.89 90)
+		(property "Footprint" "APT1608LZGCK:LED_APT1608LZGCK"
+			(at 49.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 133.35 0)
+			(at 49.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 133.35 0)
+			(at 49.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5229,7 @@
 			)
 		)
 		(property "PARTREV" "V.20B"
-			(at 46.99 135.89 90)
+			(at 49.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +5239,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 46.99 135.89 90)
+			(at 49.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5249,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.75mm"
-			(at 46.99 135.89 90)
+			(at 49.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5259,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Kingbright"
-			(at 46.99 135.89 90)
+			(at 49.53 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,11 +5268,11 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ea7724dd-5d48-4cd6-91d4-2fc99df6f92a")
-		)
 		(pin "1"
-			(uuid "00aa123a-ec0c-484a-8f8c-2436c58eb71a")
+			(uuid "bae15437-a6fd-4fae-ba41-e49c3842cc77")
+		)
+		(pin "2"
+			(uuid "cc041e22-787b-4c09-952d-f2878c71b91e")
 		)
 		(instances
 			(project ""
