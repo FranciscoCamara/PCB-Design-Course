@@ -2575,8 +2575,8 @@
 		)
 	)
 	(rectangle
-		(start 37.592 94.488)
-		(end 68.58 158.75)
+		(start 37.592 93.98)
+		(end 68.58 160.02)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2587,8 +2587,8 @@
 		(uuid 42c57968-345d-4104-b956-f058e1cbf2fe)
 	)
 	(rectangle
-		(start 81.534 94.488)
-		(end 184.404 159.004)
+		(start 81.534 93.98)
+		(end 184.404 160.02)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2597,6 +2597,28 @@
 			(type none)
 		)
 		(uuid 625b7168-ea51-4403-814b-b0199f7b735d)
+	)
+	(rectangle
+		(start 208.28 93.98)
+		(end 261.62 160.02)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 67f69550-1343-401d-b8ed-2696e60cf8f8)
+	)
+	(text "PCB holders"
+		(exclude_from_sim no)
+		(at 216.662 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c663e4c-6452-40d5-98c8-615dedcd1381")
 	)
 	(text "pin headers / default config\n(breadboard compatible)"
 		(exclude_from_sim no)
