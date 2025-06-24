@@ -15388,7 +15388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lib_fp:LED_APT1608LVBC_D"
 			(at 234.95 176.53 0)
 			(effects
 				(font
@@ -15816,7 +15816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lib_fp:LED_APT1608LVBC_D"
 			(at 213.36 176.53 0)
 			(effects
 				(font
@@ -17184,7 +17184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -17266,7 +17266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -18550,7 +18550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lib_fp:LED_APT1608LVBC_D"
 			(at 106.68 133.35 0)
 			(effects
 				(font
@@ -18891,7 +18891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal"
 			(at 52.07 233.68 0)
 			(effects
 				(font
@@ -20237,7 +20237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lib_fp:LED_APT1608LVBC_D"
 			(at 256.54 176.53 0)
 			(effects
 				(font
@@ -20525,7 +20525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 97.79 226.06 0)
 			(effects
 				(font
@@ -21893,7 +21893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Lib_fp:LED_APT1608LVBC_D"
 			(at 191.77 176.53 0)
 			(effects
 				(font
@@ -22912,7 +22912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 128.27 226.06 0)
 			(effects
 				(font
