@@ -1,4 +1,4 @@
-25604572902382360
+25608075666529511
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67872,6 +67872,13 @@ AMPHENOL_10118194-0001LF
 11
 11
 Lib_fp
+PinHeader_1x08_P1.00mm_Horizontal
+Through hole angled pin header, 1x08, 1.00mm pitch, 2.0mm pin length, single row
+Through hole angled pin header THT 1x08 1.00mm single row
+0
+8
+8
+Lib_fp
 SAMTEC_HSEC8-120-01-S-D-EM2
 
 
@@ -67892,6 +67899,13 @@ PIC32MZ1024EFE064-E/PT
 0
 64
 64
+Lib_fp
+Untitled
+
+
+0
+0
+0
 Lib_fp
 VREG_TPS79633DCQR
 
