@@ -1,6 +1,6 @@
 # PCB Design Course
 
-A repository containing course material, projects, and examples for learning printed circuit board (PCB) design.
+A repository containing course material, projects, and examples for learning printed circuit board (PCB) design using KiCad.
 
 ## About
 
